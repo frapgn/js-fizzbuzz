@@ -20,7 +20,12 @@
 .item {
     border: 1px solid black;
     display: flex;
-    flex: 1 1 13vh;
+    flex: 1 1 25%;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (min-width: 624px) {
+    .item {
+        flex: 1 1 10%;
 }
